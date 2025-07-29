@@ -1,4 +1,4 @@
-git clone
+git clone  https://github.com/Vitor2310/desenv-sistemas
 
 
 git config --global user.name "Vitor"
