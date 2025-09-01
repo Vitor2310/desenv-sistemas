@@ -1,0 +1,11 @@
+with open ("nome.txt","w") as arquivo:
+    arquivo.write("vitor \n")
+    arquivo.write("breno \n")
+    arquivo.write("magni \n")
+    arquivo.write("agner \n")
+    arquivo.write("guilherme \n")
+    
+with open("alunos.txt", "r") as dados:
+
+ for aluno in arquivo:
+    print("aluno"aluno.strip())
