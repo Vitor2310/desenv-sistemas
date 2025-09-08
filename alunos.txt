@@ -9,3 +9,4 @@ with open("alunos.txt", "r") as dados:
 
  for aluno in arquivo:
     print("aluno"aluno.strip())
+    
