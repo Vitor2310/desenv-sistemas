@@ -1,0 +1,1 @@
+# explique porque quando tenha mais de um atributo(variável), torna-se dificil/complicado o uso de arquivos txt para guardar informações
