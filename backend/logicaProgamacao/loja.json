@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "mouse",
+        "quantidade": 4,
+        "preco": 12.0,
+        "em_estoque": true
+    },
+    {
+        "nome": "mouse",
+        "quantidade": 5,
+        "preco": 12.0,
+        "em_estoque": true
+    }
+]
