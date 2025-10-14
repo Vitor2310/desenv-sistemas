@@ -1,0 +1,9 @@
+#django-admin startproject nomedoprojet - criar projeto
+
+#python manage.py startapp tarefas - criar app
+
+python manage.py makemigrations - gera as atualizações 
+
+Python manage.py migrate - aplica alterações
+
+python manage.py runserver - roda o projeto
