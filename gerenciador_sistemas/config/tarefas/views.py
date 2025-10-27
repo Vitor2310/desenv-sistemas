@@ -13,3 +13,11 @@ def detalhe_tarefa(request, tarefa_id):
     tarefa = get_object_or_404(Tarefa, pk=tarefa_id)
 
     return render(request, 'tarefas/detalhe.html', {'tarefa': tarefa})
+
+    def adicionar_Tarefa (request):
+     if request.method == 'POST':
+        Titulo = request.POST.Get('titulo')
+        descricao = request.POST.Get('descricao')
+        Tarefa.objects.create(titulo=titulo,descricao=descricao)
+
+    return redirect('lista_tarefas')
